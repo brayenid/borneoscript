@@ -1,0 +1,27 @@
+body {height: 2000px;margin-top: 30px;margin-bottom: 100px}
+html {position: relative;}
+.jumbotron	{height:628px;	background: url(img/bg6.jpg);background-size: cover;background-position: 0 -160px;background-attachment: fixed;overflow: hidden;)
+}
+.jumbotron img {width:230px;border: 3px solid #ddd;height: 220px;margin-bottom: 20px;box-shadow:1px 1px 10px rgba(0,0,0,0.5);transition: .3s}
+.jumbotron p,.jumbotron	h1 {color:#eaeaea;text-shadow:1px 1px 10px rgba(0,0,0,0.7)}
+.judul,.desk {opacity: 0;transition: .3s}
+.judul.muncul, .desk.muncul {opacity: 1}
+.bawah {border-bottom: 4px solid #ddd	;width: 80px;margin: auto;padding-bottom: 5px;margin-bottom:35px;transition: all .3s ease-in-out}
+.bawah:hover {border-bottom: 4px solid #1abc9c;width: 110px}
+.bawah2 {color:#eee;border-bottom: 4px solid #ddd	;width: 120px;margin: auto;padding-bottom: 5px;margin-bottom:35px;transition: all .3s ease-in-out;text-shadow:1px 1px 10px rgba(0,0,0,0.7)}
+.bawah2:hover {border-bottom: 4px solid #CF000F;width: 150px}
+.bawah3 {border-bottom: 4px solid #ddd	;width: 105px;margin: auto;padding-bottom: 5px;margin-bottom:35px;transition: all .3s ease-in-out}
+.bawah3:hover {border-bottom: 4px solid #2574A9;width: 125px}
+.about {text-align: justify;margin-bottom: 100px;padding:30px;min-height: 500px}
+.kiri,.kanan {opacity: 0;transform: translate(0,-70px);transition: .8s}
+.kanan {transform: translate(0,70px);}
+.kanan.muncul,.kiri.muncul {transform: translate(0,0);opacity: 1}
+.galleries {background:url(img/bg7.jpg);background-size:cover;padding:50px;background-attachment: fixed;}
+.galleries .thumbnail {opacity: 0;transition: .6s;transform: translate(0,-40px);}
+.galleries .thumbnail.muncul {opacity: 1;transform: translate(0,0);}
+.contact {height: 650px;padding: 50px}
+.navbar-collapse a {transition: all .3s ease-in-out}
+.navbar-brand {transition: all .3s ease-in-out}
+footer {width: 100%;height: 70px; background: #333;position: absolute;padding-top: 20px;color:#fff;font-size: 13px;text-decoration: none;}
+footer a {color: #fff;transition: all .3s ease-in-out}
+footer a:hover{color:#1abc9c;}
