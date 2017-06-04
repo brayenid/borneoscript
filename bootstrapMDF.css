@@ -4590,9 +4590,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse {
   background-color: rgba(0,0,0,0.7);
-  border-color: rgba(0,0,0,0.9);
+  border-color: rgba(0,0,0,0.8);
   transition: all .4s ease-in-out;
-  height:10px
+  height: 10px
 }
 .navbar-inverse:hover {
   background-color: rgba(0,0,0,0.9);
