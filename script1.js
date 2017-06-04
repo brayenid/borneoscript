@@ -35,6 +35,7 @@ $(window).on('load',function(){
 	if (jarak > $('.about').offset().top -300) {
 		$('.kiri').addClass('muncul');
 		$('.kanan').addClass('muncul');
+		$('.navbar-inverse').addClass('muncul');
 	}
 
 	//galleries
