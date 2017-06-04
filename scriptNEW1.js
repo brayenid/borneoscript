@@ -37,7 +37,7 @@ $(window).on('load',function(){
 		$('.kanan').addClass('muncul');
 		$('.navbar-inverse').addClass('muncul');
 	}
-		if (jarak < $('.about').offset().top -300) {
+		if (jarak < $('.about').offset().top -1) {
 		$('.navbar-inverse').removeClass('muncul');
 	}
 
